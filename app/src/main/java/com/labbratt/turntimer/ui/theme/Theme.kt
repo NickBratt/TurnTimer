@@ -29,7 +29,7 @@ private val LightColorScheme = lightColorScheme(
     onBackground = Color(0xFF1C1B1F),
     onSurface = Color(0xFF1C1B1F),
 
-)
+    )
 
 @Composable
 fun TurnTimerTheme(

@@ -30,6 +30,7 @@ class TimerViewModel : ViewModel() {
                     }
                 }
             }
+
             is TimerUIEvent.TogglePlayerTwoTimer -> {
                 _uiState.value = _uiState.value.copy(
                     isPlayerOneTimerGoing = false,
@@ -47,6 +48,7 @@ class TimerViewModel : ViewModel() {
                     }
                 }
             }
+
             is TimerUIEvent.TogglePlayerThreeTimer -> {
                 _uiState.value = _uiState.value.copy(
                     isPlayerOneTimerGoing = false,
@@ -64,6 +66,7 @@ class TimerViewModel : ViewModel() {
                     }
                 }
             }
+
             is TimerUIEvent.TogglePlayerFourTimer -> {
                 _uiState.value = _uiState.value.copy(
                     isPlayerOneTimerGoing = false,
@@ -81,6 +84,7 @@ class TimerViewModel : ViewModel() {
                     }
                 }
             }
+
             is TimerUIEvent.ResetTimer -> {
                 _uiState.value = _uiState.value.copy(
                     isPlayerOneTimerGoing = false,

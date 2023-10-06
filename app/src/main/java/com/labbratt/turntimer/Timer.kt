@@ -2,7 +2,7 @@ package com.labbratt.turntimer
 
 import java.util.concurrent.TimeUnit
 
-object TimeFormatter{
+object TimeFormatter {
     private const val TIME_FORMAT = "%02d:%02d:%02d"
 
     fun Long.formatTime(): String = String.format(

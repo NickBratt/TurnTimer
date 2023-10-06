@@ -50,7 +50,6 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.labbratt.turntimer.TimeFormatter.formatTime
-import com.labbratt.turntimer.ui.theme.Black
 import com.labbratt.turntimer.ui.theme.DarkGrey
 import com.labbratt.turntimer.ui.theme.TurnTimerTheme
 
